@@ -46,7 +46,6 @@ class SantaApp implements MessageSender
             0 // Идентификатор почтового шаблона (может быть не указан)
         );*/
 
-        // Реализуем отправку сообщений на Laravel
         echo "Сообщение отправлено пользователю {$recipient}: {$message}" . PHP_EOL;
     }
 
